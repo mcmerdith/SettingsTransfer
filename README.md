@@ -31,10 +31,22 @@ Settings configurations are stored in `.json` files in the `configs` directory
 
 This will overwrite the existing settings in the repository
 
+#### Update all configs
+
+`python3 update.py`
+
+#### Update specific configs
+
 `python3 update.py <config name>...`
 
 ### Install repository settings to this machine
 
 This will overwrite the existing settings on your machine
+
+#### Install all configs
+
+`python3 install.py`
+
+#### Install specific configs
 
 `python3 install.py <config name>...`
